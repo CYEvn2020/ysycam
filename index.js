@@ -12,5 +12,5 @@ app.use('/ysy', express.static('gsd'));
 app.all('/ysy', function (req, res) {
     res.sendFile(path.join(__dirname + '/gsd/ysy.html'));
 });
-
+console.log("listen to 8080")
 app.listen(8080);
