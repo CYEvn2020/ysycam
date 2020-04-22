@@ -1,0 +1,26 @@
+{
+  "name": "2020",
+  "version": "1.0.0",
+  "description": "iWater SRP Live Show",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@advgitlab.eastasia.cloudapp.azure.com:SRP_Frame/srp-frame-example.git"
+  },
+  "engines": {
+    "node": "6.x.x"
+  }
+}
